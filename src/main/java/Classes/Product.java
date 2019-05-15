@@ -18,7 +18,6 @@ public class Product implements Serializable {
     }
 
     public Product(String name, double price, int count) {
-        this.id = id;
         this.name = name;
         this.price = price;
         this.count = count;
